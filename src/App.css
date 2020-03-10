@@ -1,0 +1,95 @@
+html{
+    /* background-color: red; */
+    box-sizing: border-box;
+
+}
+
+#root{
+    background: blanchedalmond;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-body{
+    background-color: bisque;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 5px outset burlywood;
+
+}
+
+.app-title{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    width: 50%;
+    border: 10px inset blanchedalmond;
+    padding: 5px;
+}
+
+.form-container{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-body{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    border: 10px dotted lightseagreen;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn, #newTask{
+    margin: 3px;
+}
+
+.input-container, .btn-container{
+    width: 40%;
+    text-align: center;
+}
+
+.todo-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-lists{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: 5px double dodgerblue;
+    width: 90%;
+}
+
+.todo{
+    width: 45%;
+    border: 5px dotted lightskyblue;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.completed{
+    background-color: limegreen;
+    text-decoration: line-through;
+}
